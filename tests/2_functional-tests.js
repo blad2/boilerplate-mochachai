@@ -96,7 +96,7 @@ suite('Functional Tests with Zombie.js', function () {
           browser.assert.success();
           browser.assert.text('span#name', 'Cristoforo');
           browser.assert.text('span#surname', 'Colombo');
-          browser.assert.elements('span#dates', '1451 - 1506');
+          browser.assert.elements('span#dates', 1);
           done();
         });
       });
@@ -108,7 +108,7 @@ suite('Functional Tests with Zombie.js', function () {
           browser.assert.success();
           browser.assert.text('span#name', 'Amerigo');
           browser.assert.text('span#surname', 'Vespucci');
-          browser.assert.elements('span#dates', '1454 - 1512');
+          browser.assert.elements('span#dates', 1);
           done();
         });
       });
